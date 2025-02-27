@@ -1,0 +1,23 @@
+*{
+    font-family: "Poppins", serif;
+}
+
+
+.crypytoComponentContainter{
+    background-color: blue;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+
+.crypytoComponentContainter img{
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
+.cryptoTitle{
+    color:white
+}
+
+.ethDescription{
+    color:cyan
+}
