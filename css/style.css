@@ -7,17 +7,40 @@
     background-color: blue;
     width: 20rem;
     border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0,5rem;
 }
 
 .crypytoComponentContainter img{
-    width: 15rem;
+    width: 95%;
     border-radius: 0.5rem;
 }
 
 .cryptoTitle{
-    color:white
+    color:white;
+    margin: 0,5rem 0;
 }
 
 .ethDescription{
-    color:cyan
+    color:cyan;
+    margin: 0,5rem 0;
+    text-align: center;
+}
+
+.btnBuy{
+    border: none;
+    background-color: aqua;
+    padding: 0,4rem 1rem;
+    border-radius: 0,4rem;
+    width: 60%;
+    transition: box-shadow 0,4s;
+}
+
+.btnBuy:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
